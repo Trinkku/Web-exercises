@@ -1,0 +1,15 @@
+.Headline {
+  background-color: yellow;
+  font-size: 20px;
+  margin: 15px;
+ 
+}
+.Innerhead >.headline2{
+  font-style: italic;
+  font-size: 15px;
+}
+.sislista >.linesep{ 
+  background: lightpink;
+  margin: 10px;
+
+}

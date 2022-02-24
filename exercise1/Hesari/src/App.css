@@ -1,0 +1,88 @@
+.App{
+    background-color: grey;
+    position: absolute;
+}
+
+
+.HeaderOuter { 
+    background-color: rgb(7, 7, 133);
+    color: white;
+}
+
+.LeftHeader{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px
+
+}
+.LefHeader > .navElement{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.LeftHeader >.Helsingin {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.LeftHeader >.Btntilaa {
+    background-color: white;
+    color: navy;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 60px;
+}
+.News {
+
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(88, 163, 182);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.newsElement{
+    border: 1px solid;
+    display: flex;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+}
+.adElement {
+    background-color: rgb(57, 195, 219);
+    height: 40px;
+    display: flex;
+    justify-content: left;
+}
+
+.Maincontent {
+   margin-left: auto;
+   margin-right: auto;
+   color: black;
+}
+
+.Maincontent >.MainPage{
+
+  margin-left: 200px;
+  margin-right: 200px;
+  display:flex;
+}  
+.MainPage >.otsikko{
+    width: 80%;
+    font-size: 20px;
+
+}
+
+.MainPage >.Side{
+width: 20%;
+font-size: 30px;
+}
+
+.Side >.newsbar{
+    font-size: 20px;
+}
